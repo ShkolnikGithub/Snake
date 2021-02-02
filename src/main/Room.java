@@ -1,3 +1,11 @@
+package src.main;
+
+import src.controller.KeyboardObserver;
+import src.model.Mouse;
+import src.model.Snake;
+import src.model.SnakeDirection;
+import src.view.Layer;
+
 import java.awt.event.KeyEvent;
 
 /**

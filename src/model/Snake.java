@@ -1,3 +1,7 @@
+package src.model;
+
+import src.main.Room;
+
 import java.util.ArrayList;
 
 /**

@@ -1,3 +1,5 @@
+package src.model;
+
 public class Mouse {
     private int x;
     private int y;

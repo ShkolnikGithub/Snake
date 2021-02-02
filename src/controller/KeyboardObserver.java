@@ -1,3 +1,7 @@
+package src.controller;
+
+import src.main.Room;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.FocusEvent;
@@ -10,7 +14,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class KeyboardObserver extends Thread {
     private Queue<KeyEvent> keyEvents = new ArrayBlockingQueue<KeyEvent>(100);
 
-    static JFrame frame;
+    public static JFrame frame;
 
     @Override
     public void run() {

@@ -1,3 +1,8 @@
+package src.view;
+
+import src.main.Room;
+import src.model.SnakeSection;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;
